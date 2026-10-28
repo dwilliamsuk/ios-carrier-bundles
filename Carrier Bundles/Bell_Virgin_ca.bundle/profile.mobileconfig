@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>DisableWiFiAutoJoinUntilFirstUserJoin</key>
+	<false/>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -23,10 +25,6 @@
 				</array>
 				<key>EAPSIMAKAEncryptedIdentityEnabled</key>
 				<true/>
-				<key>PayloadCertificateAnchorUUID</key>
-				<array>
-					<string>9508D817-54C2-433B-ACB1-5F52FAD68121</string>
-				</array>
 				<key>TLSTrustedServerNames</key>
 				<array>
 					<string>imsiencryption</string>
@@ -55,13 +53,13 @@
 			<key>PayloadDisplayName</key>
 			<string>Wi-Fi</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.wifi.managed.B759107F-6256-464C-8219-22C80A178109</string>
+			<string>com.apple.wifi.managed.64EDAD6E-9E79-4A2A-8BE7-1F868667B373</string>
 			<key>PayloadOrganization</key>
 			<string>Bell Mobility</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>4B1025AF-C19C-4564-A0BC-3F92D7C8100F</string>
+			<string>3DD8E423-02D6-4534-B93E-E1AA266EAD35</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyType</key>
@@ -74,6 +72,10 @@
 		<dict>
 			<key>AutoJoin</key>
 			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
 			<key>EAPClientConfiguration</key>
 			<dict>
 				<key>AcceptEAPTypes</key>
@@ -82,10 +84,6 @@
 				</array>
 				<key>EAPSIMAKAEncryptedIdentityEnabled</key>
 				<true/>
-				<key>PayloadCertificateAnchorUUID</key>
-				<array>
-					<string>5E6D3B41-E969-4E00-B932-B9B872CF2784</string>
-				</array>
 				<key>TLSTrustedServerNames</key>
 				<array>
 					<string>imsiencryption</string>
@@ -98,17 +96,17 @@
 			<key>IsHotspot</key>
 			<true/>
 			<key>PayloadDescription</key>
-			<string>Configures wireless connectivity settings.</string>
+			<string>Configures Wi-Fi settings</string>
 			<key>PayloadDisplayName</key>
 			<string>WiFi (BELL_WIFI)</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.Bell_ca.56bf4ec4-d474-11eb-b7e0-f45c89abb0d9</string>
+			<string>com.apple.wifi.managed.4907B5C7-3124-4EBA-B4F2-F61F4483B26D</string>
 			<key>PayloadOrganization</key>
 			<string>Bell Mobility</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>19BF5440-47F7-4930-A1C1-8A0F028D679A</string>
+			<string>E348285C-0A18-4965-9835-37AAF4311CCB</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SSID_STR</key>
@@ -117,6 +115,10 @@
 		<dict>
 			<key>AutoJoin</key>
 			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
 			<key>EAPClientConfiguration</key>
 			<dict>
 				<key>AcceptEAPTypes</key>
@@ -125,10 +127,6 @@
 				</array>
 				<key>EAPSIMAKAEncryptedIdentityEnabled</key>
 				<true/>
-				<key>PayloadCertificateAnchorUUID</key>
-				<array>
-					<string>EE469777-7E19-4527-B056-2C0B5DACA860</string>
-				</array>
 				<key>TLSTrustedServerNames</key>
 				<array>
 					<string>imsiencryption</string>
@@ -141,17 +139,17 @@
 			<key>IsHotspot</key>
 			<true/>
 			<key>PayloadDescription</key>
-			<string>Configures wireless connectivity settings.</string>
+			<string>Configures Wi-Fi settings</string>
 			<key>PayloadDisplayName</key>
 			<string>WiFi (5099251212)</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.Bell_ca.56bf5036-d474-11eb-b7e0-f45c89abb0d9</string>
+			<string>com.apple.wifi.managed.1B48E8CC-3CFD-48C6-9194-316A6D9C5682</string>
 			<key>PayloadOrganization</key>
 			<string>Bell Mobility</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>28876119-F983-41DF-831D-715B30A6171F</string>
+			<string>8E03F954-F757-4EE1-9E5E-4072B1B4E86A</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>SSID_STR</key>
@@ -163,7 +161,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Virgin Pius Wi-Fi</string>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.Bell_ca.eee2dee2-da0e-11eb-b65f-f45c89abb0d9</string>
+	<string>com.apple.Bell_ca.F1A50D0F-00BE-4530-BEBD-823A035EC07A</string>
 	<key>PayloadOrganization</key>
 	<string>Bell Mobility</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -171,7 +169,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>54F58272-2C10-45A5-AFC2-E2E6C6D72D03</string>
+	<string>0F10805D-8BEC-4E70-B2F6-FC443553501B</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

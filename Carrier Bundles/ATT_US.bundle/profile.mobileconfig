@@ -7,30 +7,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>EncryptionType</key>
-			<string>None</string>
-			<key>HIDDEN_NETWORK</key>
-			<false/>
-			<key>IsHotspot</key>
-			<true/>
-			<key>PayloadDescription</key>
-			<string>Configures wireless connectivity settings.</string>
-			<key>PayloadDisplayName</key>
-			<string>Wi-Fi (attwifi)</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.ATT_US.4d0e3cb4-d474-11eb-b099-f45c89abb0d9</string>
-			<key>PayloadOrganization</key>
-			<string>Apple Inc</string>
-			<key>PayloadType</key>
-			<string>com.apple.wifi.managed</string>
-			<key>PayloadUUID</key>
-			<string>C26A68DC-E713-483C-A0D6-99F49C652E27</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>SSID_STR</key>
-			<string>attwifi</string>
-		</dict>
-		<dict>
 			<key>AutoJoin</key>
 			<true/>
 			<key>DisableAssociationMACRandomization</key>
@@ -69,7 +45,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
-			<string>3A14C654-B0E2-4CD5-9DE0-E33646EC8606</string>
+			<string>2BDE6BC8-16F4-4734-948F-D5A7244835BD</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyType</key>
@@ -79,9 +55,9 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Auto-joins the attwifi Wi-Fi network</string>
+	<string>Auto-joins the AT&amp;T Secure Wi-Fi network</string>
 	<key>PayloadDisplayName</key>
-	<string>attwifi</string>
+	<string>AT&amp;T Secure Wi-Fi</string>
 	<key>PayloadIdentifier</key>
 	<string>com.apple.ATT_US.e4f5b9cc-da0e-11eb-a915-f45c89abb0d9</string>
 	<key>PayloadOrganization</key>
@@ -91,7 +67,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>ACC33A9A-CA6D-48C6-BC3D-22D942328BA1</string>
+	<string>4D0E2E19-BCA4-4F0A-8A8F-54FC9674515A</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
